@@ -15,9 +15,6 @@ body {
   font-style: normal;
 }
 
-.font-weight-600 {
-  font-weight: 600;
-}
 .text-white {
   color: white;
 }
@@ -67,13 +64,36 @@ img{
   margin-bottom: 20px;
 }
 
-button {
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 80%;
+  font-weight: 700;
+}
+
+input {
+  width: 100%;
   height: 40px;
   background-color: hsl(0, 0%, 20%);
   border: none;
   border-radius: 5px;
   margin-bottom: 10px;
+  cursor: pointer;
+  color: white;
+}
+
+input[type="submit"] {
+  font-weight: 600;
+}
+
+input:hover {
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 8%);
+}
+
+#linkedin {
+  margin-bottom: 40px;
 }
 
 #linkedin {
@@ -93,3 +113,4 @@ button {
 .block-footer {
   display: block;
 }
+
