@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(0, 0%, 8%);
+}
+
+.font {
+  font-family: "Inter", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.font-weight-600 {
+  font-weight: 600;
+}
+.text-white {
+  color: white;
+}
+
+img{
+  width: 70px;
+  border-radius: 50%;
+  margin: 40px 0px 20px 0px;
+}
+
+.container {
+  width: 100vw;
+  height: 95vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(0, 0%, 8%);
+}
+
+.profile {
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(0, 0%, 12%);
+  border-radius: 5px;
+}
+
+.name {
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.location {
+  color: hsl(75, 94%, 57%);
+  font-weight: 600;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.phrase {
+  text-align: center;
+  font-weight: 400;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+button {
+  width: 80%;
+  height: 40px;
+  background-color: hsl(0, 0%, 20%);
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+#linkedin {
+  margin-bottom: 40px;
+}
+
+.attribution { 
+  font-size: 11px; 
+  text-align: center;
+  background-color: hsl(0, 0%, 8%);
+  color: white;
+}
+.attribution a { 
+  color: hsl(228, 45%, 44%);
+  text-decoration: none;
+}
+.block-footer {
+  display: block;
+}
